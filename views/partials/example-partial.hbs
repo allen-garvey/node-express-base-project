@@ -1,0 +1,7 @@
+<table>
+	<caption>{{ title }}</caption>
+	<tr><th>Name</th><th>Value</th></tr>
+	{{#each data }}
+		<tr><td>{{ this.key }}</td><td>{{ this.value }}</td></tr>
+	{{/each}}
+</table>
